@@ -1,0 +1,79 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "username": "john_doe",
+            "passwd": "hashed_password",
+            "displayName": "John Doe",
+            "email": "john@gmail.com"
+        },
+        {
+            "userId": 2,
+            "username": "jane_smith",
+            "passwd": "hashed_password",
+            "displayName": "Jane Smith",
+            "email": "jane@gmail.com"
+        },
+        {
+            "userId": 3,
+            "username": "bob_jones",
+            "passwd": "hashed_password",
+            "displayName": "Bob Jones",
+            "email": "bob@gmail.com"
+        },
+        {
+            "userId": 4,
+            "username": "alice_wonderland",
+            "passwd": "hashed_password",
+            "displayName": "Alice Wonderland",
+            "email": "alice@gmail.com"
+        },
+        {
+            "userId": 5,
+            "username": "charlie_brown",
+            "passwd": "hashed_password",
+            "displayName": "Charlie Brown",
+            "email": "charlie@gmail.com"
+        }
+    ],
+    "posts": [
+        {
+            "postId": 1,
+            "title": "First Post",
+            "content": "This is the content of the first post.",
+            "userId": 1
+        },
+        {
+            "postId": 2,
+            "title": "Another Post",
+            "content": "This is another post.",
+            "userId": 2
+        }
+    ],
+    "comments": [
+        {
+            "comment_id": 1,
+            "content": "Great post!",
+            "userId": 2,
+            "postId": 1
+        },
+        {
+            "comment_id": 2,
+            "content": "Nice content.",
+            "userId": 1,
+            "postId": 2
+        }
+    ],
+    "likes": [
+        {
+            "likeId": 1,
+            "userId": 1,
+            "postId": 2
+        },
+        {
+            "likeId": 2,
+            "userId": 2,
+            "postId": 1
+        }
+    ]
+}

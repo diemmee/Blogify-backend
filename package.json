@@ -1,0 +1,32 @@
+{
+    "name": "ct313hm02-project-backend-diemmee",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/23-24Sem1-Courses/ct313hm02-project-backend-diemmee.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/23-24Sem1-Courses/ct313hm02-project-backend-diemmee/issues"
+    },
+    "homepage": "https://github.com/23-24Sem1-Courses/ct313hm02-project-backend-diemmee#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "knex": "^3.0.1",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "nodemon": "^3.0.1",
+        "prettier": "^3.1.0"
+    }
+}
